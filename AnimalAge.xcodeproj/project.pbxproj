@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF990AD1B8E5C50008F2C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF990AC1B8E5C50008F2C5A /* AppDelegate.swift */; };
+		CAF990AF1B8E5C50008F2C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF990AE1B8E5C50008F2C5A /* ViewController.swift */; };
+		CAF990B21B8E5C50008F2C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF990B01B8E5C50008F2C5A /* Main.storyboard */; };
+		CAF990B41B8E5C50008F2C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF990B31B8E5C50008F2C5A /* Assets.xcassets */; };
+		CAF990B71B8E5C50008F2C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF990B51B8E5C50008F2C5A /* LaunchScreen.storyboard */; };
+		CAF990BF1B8E5E64008F2C5A /* clip-art-scooby-doo-959006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAF990BE1B8E5E64008F2C5A /* clip-art-scooby-doo-959006.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAF990A91B8E5C50008F2C5A /* AnimalAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF990AC1B8E5C50008F2C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF990AE1B8E5C50008F2C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF990B11B8E5C50008F2C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF990B31B8E5C50008F2C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF990B61B8E5C50008F2C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF990B81B8E5C50008F2C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF990BE1B8E5E64008F2C5A /* clip-art-scooby-doo-959006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clip-art-scooby-doo-959006.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF990A61B8E5C50008F2C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF990A01B8E5C50008F2C5A = {
+			isa = PBXGroup;
+			children = (
+				CAF990AB1B8E5C50008F2C5A /* AnimalAge */,
+				CAF990AA1B8E5C50008F2C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF990AA1B8E5C50008F2C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF990A91B8E5C50008F2C5A /* AnimalAge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF990AB1B8E5C50008F2C5A /* AnimalAge */ = {
+			isa = PBXGroup;
+			children = (
+				CAF990AC1B8E5C50008F2C5A /* AppDelegate.swift */,
+				CAF990AE1B8E5C50008F2C5A /* ViewController.swift */,
+				CAF990B01B8E5C50008F2C5A /* Main.storyboard */,
+				CAF990B31B8E5C50008F2C5A /* Assets.xcassets */,
+				CAF990B51B8E5C50008F2C5A /* LaunchScreen.storyboard */,
+				CAF990BE1B8E5E64008F2C5A /* clip-art-scooby-doo-959006.jpg */,
+				CAF990B81B8E5C50008F2C5A /* Info.plist */,
+			);
+			path = AnimalAge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF990A81B8E5C50008F2C5A /* AnimalAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF990BB1B8E5C50008F2C5A /* Build configuration list for PBXNativeTarget "AnimalAge" */;
+			buildPhases = (
+				CAF990A51B8E5C50008F2C5A /* Sources */,
+				CAF990A61B8E5C50008F2C5A /* Frameworks */,
+				CAF990A71B8E5C50008F2C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalAge;
+			productName = AnimalAge;
+			productReference = CAF990A91B8E5C50008F2C5A /* AnimalAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF990A11B8E5C50008F2C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Priom.net;
+				TargetAttributes = {
+					CAF990A81B8E5C50008F2C5A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4W5KPMC427;
+					};
+				};
+			};
+			buildConfigurationList = CAF990A41B8E5C50008F2C5A /* Build configuration list for PBXProject "AnimalAge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF990A01B8E5C50008F2C5A;
+			productRefGroup = CAF990AA1B8E5C50008F2C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF990A81B8E5C50008F2C5A /* AnimalAge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF990A71B8E5C50008F2C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF990B71B8E5C50008F2C5A /* LaunchScreen.storyboard in Resources */,
+				CAF990B41B8E5C50008F2C5A /* Assets.xcassets in Resources */,
+				CAF990BF1B8E5E64008F2C5A /* clip-art-scooby-doo-959006.jpg in Resources */,
+				CAF990B21B8E5C50008F2C5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF990A51B8E5C50008F2C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF990AF1B8E5C50008F2C5A /* ViewController.swift in Sources */,
+				CAF990AD1B8E5C50008F2C5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAF990B01B8E5C50008F2C5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF990B11B8E5C50008F2C5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF990B51B8E5C50008F2C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF990B61B8E5C50008F2C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF990B91B8E5C50008F2C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF990BA1B8E5C50008F2C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF990BC1B8E5C50008F2C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c0der0.AnimalAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAF990BD1B8E5C50008F2C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c0der0.AnimalAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF990A41B8E5C50008F2C5A /* Build configuration list for PBXProject "AnimalAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF990B91B8E5C50008F2C5A /* Debug */,
+				CAF990BA1B8E5C50008F2C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF990BB1B8E5C50008F2C5A /* Build configuration list for PBXNativeTarget "AnimalAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF990BC1B8E5C50008F2C5A /* Debug */,
+				CAF990BD1B8E5C50008F2C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF990A11B8E5C50008F2C5A /* Project object */;
+}
